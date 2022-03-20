@@ -32,5 +32,35 @@
             </div>
         </nav>
      </section>
+     <div class="container">
+        <h1 id="titulo" class="text-4xl mt-4 font-bold uppercase text-center">Clima</h1>
+        <div class="max-w-lg mx-auto controls">
+            <div class="p-6 mt-10">
+                <div id="resultado">
+                    <p class="text-center mt-6">Escribe la cuidad : </p>
+                </div>
+            </div>
+            <form id="formulario" class="mt-5 " action="#" method="POST">
+                <div class="mb-3">
+                    <input type="text" name="ciudad" id="ciudad" placeholder="Escribe tu Ciudad" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <select class="form-control" id="pais">
+                        <option disabled selected value="">-- Seleccionar País --</option>
+                        <option value="AR ">Argentina</option>
+                        <option value="CO ">Colombia</option>
+                        <option value="CR ">Costa Rica</option>
+                        <option value="ES ">España</option>
+                        <option value="US ">Estados Unidos</option>
+                        <option value="MX ">México</option>
+                        <option value="PE ">Perú</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-warning btnObtenerC">Obtener Clima</button>
+            </form>
+        </div>
+    </div>
 
+    <script src="js/weatherApp.js "></script>
 </body>
+</html>

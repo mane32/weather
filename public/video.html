@@ -17,8 +17,40 @@
                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
                  </button>
-                 
+                     <div class="collapse navbar-collapse" id="navbarNav">
+                           <ul class="navbar-nav">
+                               <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                               </li>
+                             <li class="nav-item">
+                                  <a class="nav-link" href="weather.html">Clima</a>
+                             </li>
+                             <li class="nav-item">
+                                  <a class="nav-link" href="video.html">Video</a>
+                              </li>
+                           </ul>
+                     </div>
              </div>
          </nav>
-    </section>
-    </body>
+     </section>
+     <div class="container">
+         <section>
+            <div class="max-w-lg mx-auto controls">
+                <h1 id="titulo" class="text-4xl mt-4 font-bold uppercase text-center">Video App</h1>
+                <div class="p-6 mt-10">
+                </div>
+            </div>
+         </section>
+         <div class="container">
+             <section>
+                  <div class="videoSection m-auto">
+                  </div>
+             </section>
+             <section class="selectVideo">
+                 <button onclick="insertarVideo('CvixRV5DfXk')" type="button" class="btn btn-primary">Agregar Video</button>
+              </section>
+         </div>
+         <script src="js/video.js "></script>
+
+</body>
+</html>
